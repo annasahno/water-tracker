@@ -1,0 +1,63 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;  
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.15s ease;
+    cursor: pointer;
+  }
+
+  &__content {
+    position: relative;
+    max-width: 700px;
+    padding: 100px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 400;
+  }
+
+  &__input {
+    margin-bottom: 30px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid #b8b8b8;
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  &__button-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  &__button {
+    height: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    line-height: 1;
+    color: #ffffff;
+    background-color: #40C5FF;
+    cursor: pointer;
+  }
+}

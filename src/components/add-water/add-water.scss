@@ -1,0 +1,22 @@
+.add-water {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin: 0 auto;
+  max-width: 1000px;
+
+  &__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #40C5FF;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 1;
+    cursor: pointer;
+  }
+}

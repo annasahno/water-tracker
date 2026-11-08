@@ -1,0 +1,11 @@
+.progress-bar {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+
+  &__amount {
+    font-size: 200px;
+    line-height: 1;
+    color: #40C5FF;
+  }
+}
