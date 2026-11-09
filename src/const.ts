@@ -1,0 +1,1 @@
+export const DAILY_WATER_NORM = 2000;
